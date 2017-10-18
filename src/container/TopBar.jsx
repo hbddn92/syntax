@@ -22,7 +22,6 @@ class Topbar extends React.Component {
 					<ToolbarSeparator />
 				</ToolbarGroup>
 				<ToolbarGroup>
-					<RaisedButton label="Create Broadcast" primary={true} />
 					<IconMenu
 						iconButtonElement={
 						<IconButton touch={true}>
