@@ -13,7 +13,7 @@ gulp.task('build', function(){
 })
 
 gulp.task('watchjs', function() {
-	gulp.watch('src/components/*.jsx', ['build']);
+	gulp.watch('src/**/*.jsx', ['build']);
 	// gulp.watch('src/container/*.jsx', ['build']);
 })
 

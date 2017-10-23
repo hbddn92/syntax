@@ -22,14 +22,13 @@ class Topbar extends React.Component {
 					<ToolbarSeparator />
 				</ToolbarGroup>
 				<ToolbarGroup>
-					<RaisedButton label="Create Broadcast" primary={true} />
 					<IconMenu
 						iconButtonElement={
-						<IconButton touch={true}>
-						<NavigationExpandMoreIcon />
-						</IconButton>
+							<IconButton touch={true}>
+								<NavigationExpandMoreIcon />
+							</IconButton>
 						}
-						>
+					>
 						<MenuItem primaryText="Download" />
 						<MenuItem primaryText="More Info" />
 					</IconMenu>
