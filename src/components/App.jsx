@@ -3,7 +3,6 @@ import ReactDOM from 'react-dom';
 import MuiThemeProvider from 'material-ui/styles/MuiThemeProvider';
 import TopBar from '../container/TopBar';
 import LeftBar from '../container/LeftBar';
-import TopBar from '../container/TopBar';
 
 class App extends React.Component {
 	constructor() {

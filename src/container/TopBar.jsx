@@ -24,11 +24,11 @@ class Topbar extends React.Component {
 				<ToolbarGroup>
 					<IconMenu
 						iconButtonElement={
-						<IconButton touch={true}>
-						<NavigationExpandMoreIcon />
-						</IconButton>
+							<IconButton touch={true}>
+								<NavigationExpandMoreIcon />
+							</IconButton>
 						}
-						>
+					>
 						<MenuItem primaryText="Download" />
 						<MenuItem primaryText="More Info" />
 					</IconMenu>
