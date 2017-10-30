@@ -15,13 +15,20 @@ class LeftBar extends React.Component {
 	render() {
 
 		return(
-			<div>
+			<div className="leftBar">
 				<List>
-					<ListItem primaryText="Inbox Inbox Inbox" leftIcon={<ContentForward />} />
-					<ListItem style={{"paddingRight": "0px"}} primaryText="Starred" leftIcon={<ContentForward style={{"margin-right": "0px"}}/>} />
-					<ListItem primaryText="Sent mail" leftIcon={<ContentForward />} />
-					<ListItem primaryText="Drafts" leftIcon={<ContentForward />} />
-					<ListItem primaryText="Inbox" leftIcon={<ContentForward />} />
+					<ListItem primaryText="Function A" />
+					<ListItem primaryText="Function B" />
+					<ListItem primaryText="Function C" />
+					<ListItem primaryText="Function D" />
+					<ListItem primaryText="Function E" />
+					<ListItem primaryText="Function F" />
+					<ListItem primaryText="Function E" />
+					<ListItem primaryText="Function E" />
+					<ListItem primaryText="Function E" />
+					<ListItem primaryText="Function E" />
+					<ListItem primaryText="Function E" />
+					<ListItem primaryText="Function E" />
 				</List>
 			</div>
 		)

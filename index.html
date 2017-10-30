@@ -4,11 +4,55 @@
 	<meta charset = "UTF-8">
 	<title>SYNTAX</title>
 	<link rel = "stylesheet" href = "./bower_components/bootstrap/dist/css/bootstrap.min.css" />
+	<link rel="stylesheet" href="./node_modules/codemirror/lib/codemirror.css" />
+	<link rel="stylesheet" href="./node_modules/codemirror/lib/codemirror.js" />
 </head>
 
 <body>
 	<div class="root"></div>
 	<script src="dist/bundle.js"></script>
-	<style type="text/css"></style>
+	<style type="text/css">
+		.typeField {
+			display: flex;
+			justify-content: space-between;
+		}
+
+		.typeField input {
+			flex-grow: 1;
+			min-height: 30px;
+		}
+
+		.typeField select {
+			width: 135px;
+			margin-left: 10px;
+		}
+
+		.inputData {
+			margin-top: 30px;
+		}
+
+		.inputData p {
+			font-size: 20px;
+			font-weight: bold;
+		}
+
+		.customMirror {
+			flex-grow: 1;
+			border: 1px solid #ddd;
+		}
+
+		.customMirror .CodeMirror {
+			height: 200px;
+		}
+
+		.leftBar {
+			border-right: 1px solid #ddd;
+		}
+
+		.progressCt {
+			margin-top: 20px;
+		}
+
+	</style>
 </body>
 </html>

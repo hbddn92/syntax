@@ -21,10 +21,12 @@
     "babel-preset-react": "^6.24.1",
     "babelify": "^7.3.0",
     "browserify": "^14.4.0",
+    "codemirror": "^5.31.0",
     "electron": "^1.7.9",
     "gulp": "^3.9.1",
     "material-ui": "^0.19.4",
     "react": "^16.0.0",
+    "react-codemirror2": "^3.0.3",
     "react-dom": "^16.0.0",
     "vinyl-source-stream": "^1.1.0"
   }
